@@ -1,0 +1,6 @@
+name = "app-blog"
+compatibility_date = "2024-04-03"
+pages_build_output_dir = ".next"
+
+# Note: We are deliberately NOT including the 'WORKER_SELF_REFERENCE' binding
+# to resolve the Deployment Error code: 10143 (Worker not found).
