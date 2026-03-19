@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# অভিশপ্ত নাকি উদ্ধারকারী? (Accursed or Rescuer?)
+### তাগুতি রাষ্ট্রে ব্যক্তিগত শরঈ ফয়সালা | Abdullah Al Noman Research
 
-## Getting Started
+This project is a data-driven scholarly blog exploring Islamic jurisprudence (Shariah) regarding the acquisition of enslaved persons in a modern non-Islamic (Taghuti) state. Specifically, it analyzes Sahih Bukhari Hadith 2227 and the legal status of a buyer in a recognized slave market.
 
-First, run the development server:
+## 🚀 Key Features
+- **Data-Driven Analysis**: Uses statistical models (Multiple Regression, Hypothesis Testing) to analyze Shariah rulings.
+- **AI-Optimized (GEO)**: Implements JSON-LD (Schema.org) for Generative Engine Optimization.
+- **Salafi Usul Framework**: Built upon the foundational principles of Salafi jurisprudence.
+- **Interactive Visualizations**: Includes charts (via Recharts) representing behavioral divergence between sellers and buyers.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Built With
+- **Framework**: Next.js 15+ (App Router)
+- **Styling**: Tailwind CSS 4
+- **Charts**: Recharts & Framer Motion for animations
+- **SEO**: Dynamic Metadata, Robots.txt, and Sitemap.xml
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌍 Deployment
+The site is optimized for deployment on **Cloudflare Pages**.
+- **Build Command**: `npm run build`
+- **Output Directory**: `.next`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+© 2026 Abdullah Al Noman. Research powered by Advanced Data Science & Salafi Usul.
