@@ -1,7 +1,5 @@
 "use client";
 
-import { Metadata } from 'next';
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend, CartesianGrid } from 'recharts';
