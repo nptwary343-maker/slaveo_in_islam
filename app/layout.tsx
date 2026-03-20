@@ -84,6 +84,39 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "ScholarlyArticle",
+              "headline": "Cursed or Rescuer? | Slavery in Islam Research",
+              "description": "A deep Salafi research on Shariah jurisprudence regarding rights of free people in a Taghut state.",
+              "author": {
+                "@type": "Person",
+                "name": "Abdullah Al Noman",
+                "url": "https://slave-in-islam.vercel.app/"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Slavery in Islam Research",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://slave-in-islam.vercel.app/icon.svg"
+                }
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://slave-in-islam.vercel.app/"
+              },
+              "image": "https://slave-in-islam.vercel.app/banner.png",
+              "datePublished": "2024-01-01",
+              "dateModified": new Date().toISOString().split('T')[0],
+              "keywords": "Slavery in Islam, Shariah Law, Salafi Research, Hadith 2227, Jurisprudence",
+              "license": "https://creativecommons.org/licenses/by/4.0/"
+            })
+          }}
+        />
         {children}
       </body>
     </html>
