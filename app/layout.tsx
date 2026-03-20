@@ -127,16 +127,32 @@ export default function RootLayout({
               "image": "https://slave-in-islam.vercel.app/banner.png",
               "datePublished": "2024-01-01",
               "dateModified": new Date().toISOString().split('T')[0],
-              "keywords": "Slavery in Islam, Shariah Law, Salafi Research, Hadith 2227, Jurisprudence",
+              "keywords": "Slavery in Islam, Shariah Law, Salafi Research, Hadith 2227, Jurisprudence, Islamic History, Sahih Bukhari",
               "license": "https://creativecommons.org/licenses/by/4.0/",
+              "genre": "Academic Research",
+              "educationalLevel": "University/Research",
+              "isAccessibleForFree": true,
+              "mainEntity": {
+                "@type": "ResearchReport",
+                "name": "Slavery in Islam: A Jurisprudential Analysis",
+                "author": "Abdullah Al Noman",
+                "publisher": "Slavery in Islam Research"
+              },
               "about": [
                 {
                   "@type": "Thing",
-                  "name": "Islamic Jurisprudence"
+                  "name": "Slavery in Islam",
+                  "sameAs": "https://en.wikipedia.org/wiki/Slavery_in_Islam"
                 },
                 {
                   "@type": "Thing",
-                  "name": "Sahih Bukhari Hadith 2227"
+                  "name": "Islamic Jurisprudence (Fiqh)",
+                  "sameAs": "https://en.wikipedia.org/wiki/Fiqh"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "Sahih Bukhari Hadith 2227",
+                  "sameAs": "https://sunnah.com/bukhari/34/177"
                 }
               ],
               "mentions": [
@@ -147,9 +163,13 @@ export default function RootLayout({
                 {
                   "@type": "Thing",
                   "name": "Maqasid Ash-Shariah"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "Taghut State Jurisprudence"
                 }
               ],
-              "citation": "Al Noman, Abdullah. (2024). Cursed or Rescuer? A Salafi research on the rights of free people. Slavery in Islam Research."
+              "citation": "Al Noman, Abdullah. (2024). Cursed or Rescuer? A Salafi research on the rights of free people. Slavery in Islam Research. Available at: https://slave-in-islam.vercel.app/"
             })
           }}
         />
