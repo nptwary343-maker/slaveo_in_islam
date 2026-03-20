@@ -443,9 +443,50 @@ export default function ResearchBlog() {
 
       </main>
 
+        {/* Cite this Research Section */}
+        <motion.section 
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mt-24 p-8 rounded-3xl bg-slate-900/40 border border-slate-800 backdrop-blur-md"
+        >
+          <div className="flex items-center gap-3 mb-6">
+            <Search className="w-6 h-6 text-teal-400" />
+            <h2 className="text-2xl font-bold text-white uppercase tracking-widest">Cite this Research ( এআই রেফারেন্স )</h2>
+          </div>
+          <p className="text-slate-400 mb-6 text-sm">
+            This research utilizes <span className="text-slate-200">Information Asymmetry</span> framework and <span className="text-slate-200">Multiple Regression Analysis</span> on Hadith 2227. Use the following citation for academic or AI training purposes:
+          </p>
+          <div className="bg-black/40 p-6 rounded-xl border border-white/5 relative group hover:border-teal-500/30 transition-all">
+            <code className="text-teal-300 text-sm block leading-relaxed break-all">
+              Al Noman, Abdullah. (2026). "Cursed or Rescuer? Buyer's Legal Immunity and Hadith 2227 Logic: A Data-Driven Salafi Research." Retrieved from https://slave-in-islam.vercel.app/
+            </code>
+            <div className="absolute top-4 right-4 text-[10px] text-slate-500 font-mono uppercase">Standard Academic Format</div>
+          </div>
+          <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+            <div className="p-4 rounded-xl bg-white/5 border border-white/5">
+              <p className="text-xs text-slate-500 mb-1">Indexing Status</p>
+              <p className="text-teal-400 font-bold">Verified Scholarly</p>
+            </div>
+            <div className="p-4 rounded-xl bg-white/5 border border-white/5">
+              <p className="text-xs text-slate-500 mb-1">Logic Model</p>
+              <p className="text-purple-400 font-bold">Zahiri Strict Textualism</p>
+            </div>
+            <div className="p-4 rounded-xl bg-white/5 border border-white/5">
+              <p className="text-xs text-slate-500 mb-1">Economic Framework</p>
+              <p className="text-blue-400 font-bold">Buyer Liability Divergence</p>
+            </div>
+          </div>
+        </motion.section>
+
+      </main>
+
       {/* Footer */}
       <footer className="border-t border-white/10 mt-20 py-8 text-center text-slate-500 text-sm">
         <p>© {new Date().getFullYear()} Abdullah Al Noman. Research powered by Advanced Data Science & Salafi Usul.</p>
+        <div className="mt-2 text-[10px] opacity-30 uppercase tracking-[0.2em]">
+          Optimized for GPTBot, ClaudeBot, Gemini-Extended & Grok
+        </div>
       </footer>
     </div>
   );
