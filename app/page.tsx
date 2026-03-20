@@ -587,6 +587,63 @@ export default function ResearchBlog() {
           </div>
         </motion.section>
 
+        {/* Legal Defense & Academic Immunity Section */}
+        <motion.section 
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mb-24 space-y-12"
+        >
+          <div className="text-center">
+            <h2 className="text-3xl font-bold text-white mb-6 uppercase tracking-widest">Legal Defense & Academic Immunity</h2>
+            <div className="max-w-4xl mx-auto p-6 bg-rose-500/5 border border-rose-500/20 rounded-2xl text-slate-400 text-sm leading-relaxed mb-10">
+              "This article is a strictly academic and mathematical analysis of classical Islamic jurisprudence. It does not advocate for human trafficking or illegal activities under any modern jurisdiction. The researcher's intent is to examine information asymmetry and liability limits within a specific theological framework for educational purposes only."
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* 1. Freedom of Thought */}
+            <div className="bg-white/[0.02] border border-white/10 p-6 rounded-2xl hover:bg-white/[0.04] transition-all">
+              <h3 className="text-teal-400 font-bold mb-3">1. Freedom of Thought & Conscience</h3>
+              <p className="text-sm text-slate-500 leading-relaxed">
+                This research is protected under standard constitutional guarantees of freedom of thought and academic inquiry. It serves as a "Theoretical Discourse," providing a logical breakdown of historical legal structures rather than incitement against contemporary state laws.
+              </p>
+            </div>
+
+            {/* 2. Historical Analysis */}
+            <div className="bg-white/[0.02] border border-white/10 p-6 rounded-2xl hover:bg-white/[0.04] transition-all">
+              <h3 className="text-purple-400 font-bold mb-3">2. Historical Analysis vs. Incitement</h3>
+              <p className="text-sm text-slate-500 leading-relaxed">
+                As a "Memory of History," this data analysis focuses on classical Fiqh frameworks. Academic discussions regarding the limitations of historical religious laws do not constitute sedition or illegal incitement under modern penal codes.
+              </p>
+            </div>
+
+            {/* 3. Doctrine of Necessity */}
+            <div className="bg-white/[0.02] border border-white/10 p-6 rounded-2xl hover:bg-white/[0.04] transition-all">
+              <h3 className="text-blue-400 font-bold mb-3">3. Doctrine of Necessity (Emergency Rescue)</h3>
+              <p className="text-sm text-slate-500 leading-relaxed">
+                The transaction model presented identifies the buyer as a rescuer using the market as a tool to prevent a "Greater Evil." This aligns with the "Emergency Rescue" doctrine where actions taken to save a life from imminent destruction are exempted from liability.
+              </p>
+            </div>
+
+            {/* 4. Academic Immunity */}
+            <div className="bg-white/[0.02] border border-white/10 p-6 rounded-2xl hover:bg-white/[0.04] transition-all">
+              <h3 className="text-rose-400 font-bold mb-3">4. Evidence-Based Academic Immunity</h3>
+              <p className="text-sm text-slate-500 leading-relaxed">
+                Utilizing the legal maxim <span className="italic">"De minimis non curat lex"</span> (The law does not concern itself with trifles), the statistical regression model proves the buyer's liability coefficient (0.02) is negligible and legally insignificant.
+              </p>
+            </div>
+
+            {/* 5. Cyber Law Protection */}
+            <div className="bg-white/[0.02] border border-white/10 p-6 rounded-2xl hover:bg-white/[0.04] transition-all lg:col-span-2">
+              <h3 className="text-teal-400 font-bold mb-3">5. Global Cyber Law & "Educational Use"</h3>
+              <p className="text-sm text-slate-500 leading-relaxed">
+                Under international digital safety standards, this platform is categorized as an "Educational and Theoretical Data" repository. It does not defame individuals or attack protected groups, but solves complex "Legal Geometry" within a theological context.
+              </p>
+            </div>
+          </div>
+        </motion.section>
+
       </main>
 
       {/* Footer */}
