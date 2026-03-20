@@ -114,8 +114,47 @@ export default function ResearchBlog() {
             <h2 className="text-2xl font-bold text-white">Scenario & Fiqh Crisis</h2>
           </div>
           <p className="text-slate-300 leading-relaxed text-lg">
-            In a non-Islamic (Taghut) state framework, an independent girl named 'Akhi' is kidnapped by traffickers. Eventually, she is brought to a recognized slave market. Mr. Rahim, as a Muslim buyer, purchases her. A typical emotional perspective would deem the buyer as equally guilty (Accomplice) as the trafficker. But what do the Usul of the Salafi Manhaj and modern Data Science say?
+            In a non-Islamic (Taghut) state framework, an independent girl named 'Akhi' is kidnapped by traffickers. Eventually, she is brought to a recognized slave market. Mr. Rahim, as a Muslim buyer, purchases her. A typical emotional perspective would deem the buyer as equally guilty (Accomplice) as the trafficker. But what do the Usul of the <span className="text-teal-400 font-bold">Zahiri Strict Textualism</span> and modern Data Science say?
           </p>
+        </motion.section>
+
+        {/* Interactive Logic Tree */}
+        <motion.section 
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mb-24"
+        >
+          <h2 className="text-3xl font-bold text-white mb-10 text-center">Interactive Jurisprudential Logic Tree</h2>
+          <div className="relative grid grid-cols-1 md:grid-cols-4 gap-4">
+            {/* Step 1 */}
+            <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl relative z-10 hover:border-teal-500/50 transition-all group">
+              <div className="text-xs text-teal-500 font-mono mb-2 uppercase">Step 01: Market</div>
+              <h3 className="text-white font-bold mb-2">Dhahir Status</h3>
+              <p className="text-sm text-slate-400">Individual available in a recognized market as a 'Slave'.</p>
+            </div>
+            {/* Step 2 */}
+            <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl relative z-10 hover:border-purple-500/50 transition-all group">
+              <div className="text-xs text-purple-500 font-mono mb-2 uppercase">Step 02: Action</div>
+              <h3 className="text-white font-bold mb-2">Lawful Trade</h3>
+              <p className="text-sm text-slate-400">Buyer executes a financial transaction using Halal wealth.</p>
+            </div>
+            {/* Step 3 */}
+            <div className="bg-slate-900 border border-slate-800 p-6 rounded-2xl relative z-10 hover:border-blue-500/50 transition-all group">
+              <div className="text-xs text-blue-500 font-mono mb-2 uppercase">Step 03: Discovery</div>
+              <h3 className="text-white font-bold mb-2">Hidden Reveal</h3>
+              <p className="text-sm text-slate-400">Post-purchase reveal: The individual was truly 'Kidnapped'.</p>
+            </div>
+            {/* Result */}
+            <div className="bg-gradient-to-br from-teal-900/40 to-slate-900 border border-teal-500/30 p-6 rounded-2xl relative z-10 group shadow-[0_0_20px_rgba(20,184,166,0.1)]">
+              <div className="text-xs text-white font-mono mb-2 uppercase">Final Ruling</div>
+              <h3 className="text-white font-bold mb-2">Liability Divergence</h3>
+              <p className="text-sm text-slate-200">Seller: <span className="text-rose-400">Cursed</span><br/>Buyer: <span className="text-teal-400 font-bold">Immune</span></p>
+            </div>
+
+            {/* Connecting Lines (Desktop only) */}
+            <div className="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-slate-800 -translate-y-1/2 z-0"></div>
+          </div>
         </motion.section>
 
         {/* Data Visualization Section */}
@@ -427,6 +466,34 @@ export default function ResearchBlog() {
           </div>
         </section>
 
+        {/* Zahiri Methodology Section */}
+        <motion.section 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mb-24 p-10 rounded-3xl bg-slate-900 border border-slate-800 relative overflow-hidden"
+        >
+          <div className="absolute top-0 right-0 p-8 opacity-5">
+            <Landmark className="w-40 h-40" />
+          </div>
+          <div className="relative z-10 text-center max-w-3xl mx-auto">
+            <h2 className="text-3xl font-bold text-white mb-6">Methodology: Zahiri Strict Textualism</h2>
+            <p className="text-slate-400 mb-8 leading-relaxed">
+              This research adheres to the <span className="text-teal-400">Zahiri</span> (Literalist) Manhaj of jurisprudence. According to this school, it is strictly prohibited to declare an action as 'Haram' or an individual as 'Cursed' based on speculative personal analogy (Qiyas). 
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+              <div className="p-5 bg-white/5 rounded-2xl border border-white/5">
+                <h4 className="text-teal-400 font-bold mb-2">Rejection of Speculation</h4>
+                <p className="text-sm text-slate-500">Legal rulings in penal matters must explicitly follow the Text (Nass). Speculative moralism cannot override literal textual limits.</p>
+              </div>
+              <div className="p-5 bg-white/5 rounded-2xl border border-white/5">
+                <h4 className="text-purple-400 font-bold mb-2">Preservation of Rights</h4>
+                <p className="text-sm text-slate-500">Every market participant is safe unless the scripture specifically names them as a violator. The buyer is not named in Hadith 2227.</p>
+              </div>
+            </div>
+          </div>
+        </motion.section>
+
         {/* Conclusion Section */}
         <motion.section 
           initial={{ opacity: 0, scale: 0.95 }}
@@ -440,8 +507,6 @@ export default function ResearchBlog() {
             Selling a kidnapped free woman into slavery is a horrific, unpardonable crime, and the seller stands directly to face severe divine penalty in Allah's tribunal. However, in an institutionalized Taghut market mechanism (Market Inevitability) plagued with information deficits, a buyer who spends halal wealth to procure such a slave qualifies legally as a <span className="text-white font-bold">'Bona fide purchaser'</span> according to Shariah technicalities. The intense curse mentioned in Hadith 2227 does therefore fundamentally bypass the buyer.
           </p>
         </motion.section>
-
-      </main>
 
         {/* Advanced Academic Sections */}
         <section className="mb-24 space-y-16">
