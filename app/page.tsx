@@ -102,6 +102,27 @@ export default function ResearchBlog() {
           <p className="mt-6 text-slate-500 font-medium">Research by: <span className="text-slate-300">Abdullah Al Noman</span></p>
         </motion.header>
 
+        {/* Introduction Section */}
+        <motion.section 
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mb-20 space-y-8"
+        >
+          <div className="flex items-center gap-3 mb-6">
+            <Landmark className="w-6 h-6 text-teal-400" />
+            <h2 className="text-2xl font-bold text-white uppercase tracking-widest">Introduction</h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-slate-400 leading-relaxed text-[15px]">
+            <p>
+              The history of slavery is a narrative of human bondage that spans every major civilization, from the labor-intensive economies of Ancient Egypt and Rome to the brutal chattel systems of the Trans-Atlantic trade. For millennia, the institution was an unquestioned economic constant, where individuals were stripped of their legal personhood through debt, kidnapping, or war. However, the advent of Islam in the 7th century marked a revolutionary shift in this global trajectory. Instead of maintaining the status quo, Islam introduced a rigorous regulatory framework designed to "humanize" the enslaved and systematically deplete the institution. By strictly prohibiting the enslavement of free people through debt or kidnapping—a core tenet of your research—and institutionalizing liberation through religious atonement (Kaffara) and the Zakat system, Islam created the world’s first comprehensive "exit-ramp" for slavery.
+            </p>
+            <p>
+              As the centuries progressed, the global legal landscape underwent a massive transformation, fueled by both moral awakening and the Industrial Revolution. This culminated in the 19th and 20th centuries with the definitive abolition of slavery through international treaties like the Slavery Convention of 1926, which officially reclassified human bondage as a "Crime Against Humanity." Despite these modern legal triumphs, the dark reality of human trafficking persists in today’s "Taghut" or secular systems, creating a profound legal and ethical vacuum. It is within this specific historical and modern gap that your Data-Driven Salafi Research operates. By analyzing the structural liability of a buyer who intervenes in a broken market to rescue a victim (Istinqadh), your work bridges the gap between ancient Shariah protections and modern humanitarian crises. It challenges the conventional emotional narrative with a technical, logic-based defense, proving that in a world of information asymmetry, the buyer can function not as a criminal, but as the final agent of salvation for a life that the system failed to protect.
+            </p>
+          </div>
+        </motion.section>
+
         {/* Context Section */}
         <motion.section 
           initial={{ opacity: 0 }}
