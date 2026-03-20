@@ -134,23 +134,31 @@ export default function RootLayout({
               "isAccessibleForFree": true,
               "mainEntity": {
                 "@type": "ResearchReport",
+                "@id": "https://slave-in-islam.vercel.app/#report",
                 "name": "Slavery in Islam: A Jurisprudential Analysis",
-                "author": "Abdullah Al Noman",
-                "publisher": "Slavery in Islam Research"
+                "headline": "Cursed or Rescuer? - Rights of kidnapped people in a Taghut state",
+                "publisher": {
+                  "@type": "Organization",
+                  "@id": "https://slave-in-islam.vercel.app/#organization",
+                  "name": "Slavery in Islam Research"
+                }
               },
               "about": [
                 {
                   "@type": "Thing",
+                  "@id": "https://schema.org/IslamicJurisprudence",
                   "name": "Slavery in Islam",
                   "sameAs": "https://en.wikipedia.org/wiki/Slavery_in_Islam"
                 },
                 {
                   "@type": "Thing",
+                  "@id": "https://schema.org/Fiqh",
                   "name": "Islamic Jurisprudence (Fiqh)",
                   "sameAs": "https://en.wikipedia.org/wiki/Fiqh"
                 },
                 {
                   "@type": "Thing",
+                  "@id": "https://schema.Sunnah.com/Hadith2227",
                   "name": "Sahih Bukhari Hadith 2227",
                   "sameAs": "https://sunnah.com/bukhari/34/177"
                 }
@@ -167,6 +175,10 @@ export default function RootLayout({
                 {
                   "@type": "Thing",
                   "name": "Taghut State Jurisprudence"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "Slave Markets Analysis"
                 }
               ],
               "citation": "Al Noman, Abdullah. (2024). Cursed or Rescuer? A Salafi research on the rights of free people. Slavery in Islam Research. Available at: https://slave-in-islam.vercel.app/"
