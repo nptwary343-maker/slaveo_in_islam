@@ -5,8 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: '/_next/',
     },
-    sitemap: 'https://slaveoislam.pages.dev/sitemap.xml',
+    sitemap: 'https://slave-in-islam.vercel.app/sitemap.xml',
   }
 }
