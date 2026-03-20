@@ -14,10 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "অভিশপ্ত নাকি উদ্ধারকারী? | Slavery in Islam",
+    default: "Cursed or Rescuer? | Slavery in Islam",
     template: "%s | Slavery in Islam",
   },
-  description: "সহিহ বুখারি হাদিস ২২২৭-এর আলোকে স্বাধীন মানুষের অধিকার এবং তাগুতি রাষ্ট্রে ব্যক্তিগত শরঈ ফয়সালার একটি সালাফি গবেষণা।",
+  description: "A Salafi research on the rights of free people and personal Shariah rulings in a Taghut state in light of Sahih Bukhari Hadith 2227.",
   keywords: ["Slavery in Islam", "Islamic Jurisprudence", "Hadith 2227", "Salafi Research", "Shariah Law", "Human Rights in Islam", "Data Science Shariah"],
   authors: [{ name: "Abdullah Al Noman" }],
   creator: "Abdullah Al Noman",
@@ -35,10 +35,10 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: "website",
-    locale: "bn_BD",
+    locale: "en_US",
     url: "https://slaveryinislam.vercel.app/",
-    title: "অভিশপ্ত নাকি উদ্ধারকারী? | Slavery in Islam",
-    description: "সালাফি উসুল এবং মাকাসিদ আশ-শরীয়াহর আলোকে অপহরণকৃত নারী ও দাস বাজার সংক্রান্ত একটি জটিল ফিকহী বিশ্লেষণ।",
+    title: "Cursed or Rescuer? | Slavery in Islam",
+    description: "A complex Fiqh analysis regarding kidnapped women and slave markets in light of Salafi Usul and Maqasid Ash-Shariah.",
     siteName: "Slavery in Islam",
     images: [
       {
@@ -51,8 +51,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "অভিশপ্ত নাকি উদ্ধারকারী? | Slavery in Islam",
-    description: "সালাফি উসুল এবং মাকাসিদ আশ-শরীয়াহর আলোকে অপহরণকৃত নারী ও দাস বাজার সংক্রান্ত একটি ফিকহী বিশ্লেষণ।",
+    title: "Cursed or Rescuer? | Slavery in Islam",
+    description: "A Fiqh analysis regarding kidnapped women and slave markets in light of Salafi Usul and Maqasid Ash-Shariah.",
     images: ["/banner.png"],
   },
   icons: {
@@ -67,10 +67,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="bn">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+    <html lang="en">
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
       </body>
     </html>

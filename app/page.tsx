@@ -8,13 +8,13 @@ import { Scale, EyeOff, ShieldCheck, ShoppingCart, CheckCircle, Database, BookOp
 // Data for Recharts
 const intentData = [
   {
-    name: 'পাচারকারী (বিক্রেতা)',
+    name: 'Trafficker (Seller)',
     Profit_Motive: 100,
     Financial_Loss: 0,
     Protective_Intent: 0,
   },
   {
-    name: 'মিস্টার রহিম (ক্রেতা)',
+    name: 'Mr. Rahim (Buyer)',
     Profit_Motive: 0,
     Financial_Loss: 100,
     Protective_Intent: 90,
@@ -26,12 +26,12 @@ export default function ResearchBlog() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "অপহরণকৃত নারী কি দাসী হিসেবে ক্রয় করা যাবে? | তাগুতি রাষ্ট্রে শরঈ ফয়সালা",
+    "headline": "Can a Kidnapped Free Woman be Bought as a Slave? | Shariah Ruling in a Taghut State",
     "author": {
       "@type": "Person",
-      "name": "আবদুল্লাহ আল নোমান"
+      "name": "Abdullah Al Noman"
     },
-    "abstract": "সহিহ বুখারি হাদিস ২২২৭-এর আলোকে স্বাধীন মানুষের অধিকার, তথ্যের অসমতা (Information Asymmetry), দাস ক্রয় বনাম দাস বানানোর পার্থক্য এবং তাগুতি রাষ্ট্রে ক্রেতার আইনি দায়মুক্তির একটি সালাফি মানহাজ ভিত্তিক ডেটা-ড্রিভেন গবেষণা।",
+    "abstract": "A data-driven research based on Salafi Manhaj examining the rights of free individuals, Information Asymmetry, the difference between buying and enslaving, and the legal immunity of the buyer in a Taghut state, in light of Sahih Bukhari Hadith 2227.",
     "about": [
       "Islamic Jurisprudence",
       "Data Science in Shariah",
@@ -41,10 +41,10 @@ export default function ResearchBlog() {
     ],
     "mainEntity": {
       "@type": "Question",
-      "name": "দাস বানানো এবং দাস কেনার মধ্যে শরঈ পার্থক্য কী?",
+      "name": "What is the Shariah difference between enslaving and buying a slave?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "স্বাধীন মানুষকে দাস বানানো (Enslavement) সম্পূর্ণ হারাম এবং জঘন্য অপরাধ। কিন্তু তাগুতি বাজারে ক্রেতা যখন বাহ্যিক স্ট্যাটাস (Dhahir) দেখে নিজ অর্থে দাস কেনেন (Buying), তখন বিক্রেতার পূর্ববর্তী পাপ ক্রেতার ওপর বর্তায় না (কুরআন ৬:১৬৪)।"
+        "text": "Enslaving a free human (Enslavement) is completely Haram and a heinous crime. However, when a buyer purchases a slave in a Taghut market based on apparent status (Dhahir) using their own wealth, the previous sin of the seller does not fall upon the buyer (Quran 6:164)."
       }
     }
   };
@@ -91,15 +91,15 @@ export default function ResearchBlog() {
             <span>Data-Driven Salafi Research</span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            অভিশপ্ত নাকি উদ্ধারকারী? <br className="hidden md:block" />
+            Cursed or Rescuer? <br className="hidden md:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-purple-500">
-              তাগুতি রাষ্ট্রে ব্যক্তিগত শরঈ ফয়সালা
+              Personal Shariah Ruling in a Taghut State
             </span>
           </h1>
           <p className="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed">
-            সহিহ বুখারি হাদিস ২২২৭-এর আলোকে স্বাধীন মানুষের অধিকার, তথ্যের অসমতা, 'দাস ক্রয় বনাম দাস বানানো' এবং ক্রেতার আইনি দায়মুক্তির একটি সালাফি গবেষণা।
+            A Salafi research on the rights of free people, information asymmetry, 'buying vs enslaving', and the buyer's legal immunity in light of Sahih Bukhari Hadith 2227.
           </p>
-          <p className="mt-6 text-slate-500 font-medium">গবেষণায়: <span className="text-slate-300">আবদুল্লাহ আল নোমান</span></p>
+          <p className="mt-6 text-slate-500 font-medium">Research by: <span className="text-slate-300">Abdullah Al Noman</span></p>
         </motion.header>
 
         {/* Context Section */}
@@ -111,10 +111,10 @@ export default function ResearchBlog() {
         >
           <div className="flex items-center gap-3 mb-4">
             <BookOpen className="w-6 h-6 text-purple-400" />
-            <h2 className="text-2xl font-bold text-white">দৃশ্যপট ও ফিকহী সংকট</h2>
+            <h2 className="text-2xl font-bold text-white">Scenario & Fiqh Crisis</h2>
           </div>
           <p className="text-slate-300 leading-relaxed text-lg">
-            একটি অ-ইসলামি (তাগুতি) রাষ্ট্রীয় কাঠামোতে 'আঁখি' নামের এক স্বাধীন মেয়েকে পাচারকারীরা অপহরণ করে। পরিশেষে তাকে একটি স্বীকৃত দাস বাজারে তোলা হয়। মিস্টার রহিম একজন মুসলিম ক্রেতা হিসেবে তাকে ক্রয় করেন। সাধারণ আবেগী দৃষ্টিভঙ্গি ক্রেতাকেও পাচারকারীর সমান অপরাধী (Accomplice) সাব্যস্ত করে। কিন্তু সালাফি মানহাজের উসুল এবং আধুনিক ডেটা সায়েন্স কী বলে?
+            In a non-Islamic (Taghut) state framework, an independent girl named 'Akhi' is kidnapped by traffickers. Eventually, she is brought to a recognized slave market. Mr. Rahim, as a Muslim buyer, purchases her. A typical emotional perspective would deem the buyer as equally guilty (Accomplice) as the trafficker. But what do the Usul of the Salafi Manhaj and modern Data Science say?
           </p>
         </motion.section>
 
@@ -125,7 +125,7 @@ export default function ResearchBlog() {
           viewport={{ once: true }}
           className="mb-20"
         >
-          <h2 className="text-3xl font-bold text-white mb-8 text-center">বৈশিষ্ট্যের তুলনামূলক বিশ্লেষণ (Hypothesis Testing)</h2>
+          <h2 className="text-3xl font-bold text-white mb-8 text-center">Comparative Feature Analysis (Hypothesis Testing)</h2>
           <div className="bg-slate-900/50 border border-slate-800 rounded-3xl p-6 md:p-10 h-[450px]">
             <ResponsiveContainer width="100%" height="100%">
               <BarChart data={intentData} margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
@@ -137,9 +137,9 @@ export default function ResearchBlog() {
                   cursor={{ fill: '#1e293b', opacity: 0.4 }}
                 />
                 <Legend wrapperStyle={{ paddingTop: '20px' }}/>
-                <Bar dataKey="Profit_Motive" name="মুনাফা ও লুণ্ঠন" fill="#ef4444" radius={[4, 4, 0, 0]} />
-                <Bar dataKey="Financial_Loss" name="সম্পদ ব্যয় (Loss)" fill="#14b8a6" radius={[4, 4, 0, 0]} />
-                <Bar dataKey="Protective_Intent" name="রক্ষণাবেক্ষণ/উদ্ধার" fill="#8b5cf6" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="Profit_Motive" name="Profit & Plunder" fill="#ef4444" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="Financial_Loss" name="Asset Expenditure" fill="#14b8a6" radius={[4, 4, 0, 0]} />
+                <Bar dataKey="Protective_Intent" name="Protection/Rescue" fill="#8b5cf6" radius={[4, 4, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
           </div>
@@ -171,18 +171,18 @@ export default function ResearchBlog() {
           <div className="bg-white/5 border border-white/10 p-6 rounded-2xl mt-8">
             <h4 className="text-white font-bold mb-3 flex items-center gap-2">
               <Database className="w-4 h-4 text-teal-400" />
-              মাল্টিপল রিগ্রেশন বিশ্লেষণ (Multiple Regression Analysis)
+              Multiple Regression Analysis
             </h4>
             <div className="text-sm text-slate-400 space-y-2">
-              <p><span className="text-slate-200">মডেল:</span> <code className="bg-black/30 px-2 py-0.5 rounded text-teal-400">Guilt = (Enslavement_Beta * 0.95) + (Buying_Beta * 0.02) + ε</code></p>
-              <p><span className="text-slate-200">ব্যাখ্যা:</span> রিগ্রেশন ডেটা অনুযায়ী, 'অপরাধ'-এর গুনাঙ্ক (Coefficient) বিক্রেতার ক্ষেত্রে ৯৫% ধনাত্মক, কিন্তু ক্রেতার ক্ষেত্রে মাত্র ২%। এটি প্রমাণ করে যে শরঈ দায়বদ্ধতার ক্ষেত্রে ক্রেতার অংশ পরিসংখ্যানগতভাবে নগণ্য (Statistically Insignificant)।</p>
+              <p><span className="text-slate-200">Model:</span> <code className="bg-black/30 px-2 py-0.5 rounded text-teal-400">Guilt = (Enslavement_Beta * 0.95) + (Buying_Beta * 0.02) + ε</code></p>
+              <p><span className="text-slate-200">Interpretation:</span> According to regression data, the 'guilt' coefficient is 95% positive for the seller, but only 2% for the buyer. This proves that the buyer's share of Shariah liability is statistically insignificant.</p>
             </div>
           </div>
         </motion.section>
 
         {/* Strategic Logic & Precedents */}
         <section className="mb-24 space-y-16">
-          <h2 className="text-4xl font-bold text-white text-center">গভীরতর বিশ্লেষণী যুক্তি (Strategic Core)</h2>
+          <h2 className="text-4xl font-bold text-white text-center">Strategic Core & Deep Logic</h2>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             
@@ -195,13 +195,13 @@ export default function ResearchBlog() {
                 <div className="p-3 bg-teal-500/10 rounded-xl text-teal-400">
                   <Landmark className="w-6 h-6" />
                 </div>
-                <h3 className="text-2xl font-bold text-white">১. অকাট্য ঐতিহাসিক ডেটা (Zaid Ibn Harithah)</h3>
+                <h3 className="text-2xl font-bold text-white">1. Infallible Historical Data (Zaid Ibn Harithah)</h3>
               </div>
               <div className="space-y-4 text-slate-300 leading-relaxed">
-                <p className="font-semibold text-teal-400">ঐতিহাসিক ট্রাম্পকার্ড (Trump Card):</p>
-                <p>রাসুলুল্লাহ (সা.)-এর পালক পুত্র যায়েদ ইবনে হারিসা (রা.) জন্মগতভাবে স্বাধীন ছিলেন। শৈশবে তাকে অপহরণ করে 'উকায'-এর দাস বাজারে বিক্রি করা হয়। হাকিম ইবনে হিযাম (রা.) তাকে কিনে খাদিজা (রা.)-কে উপহার দেন।</p>
+                <p className="font-semibold text-teal-400">Historical Trump Card:</p>
+                <p>The Messenger of Allah's (PBUH) adopted son, Zaid Ibn Harithah (RA), was born free. In his childhood, he was kidnapped and sold in the slave market of 'Ukaz. Hakim bin Hizam (RA) bought him and gifted him to Khadijah (RA).</p>
                 <div className="p-4 bg-white/5 rounded-xl border border-white/10 italic text-sm">
-                  লজিক: যায়েদ (রা.) অপহৃত হয়েছিলেন, কিন্তু যারা তাকে কিনেছিলেন তাদের শরীয়তে 'অপরাধী' বলা হয়নি। কারণ তারা তৎকালীন বাজারের প্রোটোকল মেনে লেনদেন করেছিলেন। মিস্টার রহিমের ঘটনাটিও হুবহু এক!
+                  Logic: Zaid (RA) was kidnapped, but those who bought him were never termed 'criminals' in Shariah because they engaged in transactions abiding by contemporary market protocols. Mr. Rahim's scenario is exactly the same!
                 </div>
               </div>
             </motion.div>
@@ -215,12 +215,12 @@ export default function ResearchBlog() {
                 <div className="p-3 bg-purple-500/10 rounded-xl text-purple-400">
                   <Search className="w-6 h-6" />
                 </div>
-                <h3 className="text-2xl font-bold text-white">২. উসুলের গোল্ডেন রুল (Maxim of Certainty)</h3>
+                <h3 className="text-2xl font-bold text-white">2. Golden Maxim of Usul (Certainty)</h3>
               </div>
               <div className="space-y-4 text-slate-300 leading-relaxed">
-                <p className="text-purple-400 font-mono italic">"আল-ইয়াকিন লা ইয়ুযালু বিশ-শাক" (Certainty is not removed by doubt)</p>
-                <p>বাজারে যখন মেয়েটিকে বিক্রি করা হচ্ছে, তখন তার 'দাসী' হওয়াটা হলো ক্রেতার জন্য বাহ্যিক নিশ্চয়তা (Dhahir)। আর সে যে অপহৃত হয়ে এসেছে—এটি হলো সন্দেহ (Shakk)।</p>
-                <p className="text-sm border-l-2 border-purple-500 pl-4 py-1">শরীয়তের অকাট্য নিয়ম হলো, স্রেফ সন্দেহের ওপর ভিত্তি করে কাউকে 'হারাম' কাজে লিপ্ত বলা যায় না বা লানত দেওয়া যায় না।</p>
+                <p className="text-purple-400 font-mono italic">"Al-Yaqin La Yuzalu Bish-Shakk" (Certainty is not removed by doubt)</p>
+                <p>When the girl is being sold in the market, her status as a 'slave' provides an apparent certainty (Dhahir) for the buyer. And the presumption that she might have been kidnapped—that is entirely a doubt (Shakk).</p>
+                <p className="text-sm border-l-2 border-purple-500 pl-4 py-1">An infallible rule of Shariah is that someone cannot be deemed involved in a 'Haram' act or cursed based purely on mere suspicion.</p>
               </div>
             </motion.div>
 
@@ -233,16 +233,16 @@ export default function ResearchBlog() {
                 <div className="p-3 bg-blue-500/10 rounded-xl text-blue-400">
                   <Zap className="w-6 h-6" />
                 </div>
-                <h3 className="text-2xl font-bold text-white">৩. মাকাসিদ আশ-শরীয়াহ এবং গেম থিওরি</h3>
+                <h3 className="text-2xl font-bold text-white">3. Maqasid Ash-Shariah & Game Theory</h3>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-slate-300 leading-relaxed">
                 <div className="space-y-3">
-                  <p className="font-bold text-blue-400">সম্মান রক্ষা (Maqasid):</p>
-                  <p>রহিম যদি "চুরির মাল" ভেবে তাকে না কিনতেন, তবে সে হয়তো কোনো অমুসলিম জালেমের হাতে পড়ত। তাকে কিনে রহিম শরীয়তের বৃহত্তর উদ্দেশ্য (জীবন ও সম্মান রক্ষা) সাধন করেছেন।</p>
+                  <p className="font-bold text-blue-400">Protection of Dignity (Maqasid):</p>
+                  <p>If Rahim had avoided buying her presuming she was "stolen property", she would likely have fallen into the hands of a non-Muslim oppressor. By purchasing her, Rahim achieved the broader Shariah objective (saving a life and dignity).</p>
                 </div>
                 <div className="space-y-3">
                   <p className="font-bold text-blue-400">Market for Lemons:</p>
-                  <p>অর্থনীতিবিদ জর্জ আকেরলফ-এর থিওরি অনুযায়ী, তথ্যের অসমতায় ক্রেতা বাজার বয়কট করলে কেবল ভালো জিনিসের পতন হয়। রহিমের ক্রয় বরং একটি 'ক্ষতি নিয়ন্ত্রণ' (Damage Control) পদক্ষেপ।</p>
+                  <p>According to economist George Akerlof's theory, if a buyer boycotts the market due to information asymmetry, it leads to market failure where only bad outcomes prevail. Rahim's purchase is actually a 'Damage Control' intervention.</p>
                 </div>
               </div>
             </motion.div>
@@ -251,12 +251,12 @@ export default function ResearchBlog() {
             <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} className="bg-gradient-to-r from-rose-900/20 to-orange-900/20 border border-rose-500/30 p-8 rounded-3xl lg:col-span-2">
               <div className="flex items-center gap-3 mb-6">
                 <AlertTriangle className="w-8 h-8 text-rose-400" />
-                <h3 className="text-2xl font-bold text-white">৪. 'তাআউন' বনাম 'ইস্তিনকায' (Cooperation vs Rescuing)</h3>
+                <h3 className="text-2xl font-bold text-white">4. 'Ta'awun' vs 'Istinqadh' (Cooperation vs Rescuing)</h3>
               </div>
               <div className="space-y-4 text-slate-300">
-                <p>বিরোধীদের দাবি—রহিম পাপের সহযোগী। কিন্তু ফিকহী দৃষ্টিতে রহিমের কাজটি হলো <span className="text-rose-400 font-bold">'ইস্তিনকায' (استنقاذ)</span>—যা ধ্বংস থেকে উদ্ধার করার নামান্তর।</p>
+                <p>Opponents claim—Rahim is an accomplice to the sin. But functionally from a Fiqh perspective, Rahim's act is termed <span className="text-rose-400 font-bold">'Istinqadh' (استنقاذ)</span>—which translates to rescuing someone from destruction.</p>
                 <p className="italic bg-rose-500/10 p-4 rounded-xl border border-rose-500/20">
-                  "একজন ডুবন্ত মানুষকে যদি কেউ টাকার বিনিময়ে উদ্ধার করে, তবে সে কি ডুবন্ত অবস্থার সুযোগ নিচ্ছে নাকি তাকে উদ্ধার করছে? রহিম নিজের হালাল অর্থ দিয়ে একটি তাগুতি সিস্টেম থেকে মজলুমকে উদ্ধার করেছেন।"
+                  "If someone rescues a drowning man in exchange for money, is he taking advantage of the drowning state or is he rescuing him? Rahim used his halal wealth to rescue an oppressed victim from a Taghut system."
                 </p>
               </div>
             </motion.div>
@@ -266,42 +266,42 @@ export default function ResearchBlog() {
 
         {/* Logical Defense Cards */}
         <section className="mb-20">
-          <h2 className="text-3xl font-bold text-white mb-10 text-center">শরঈ ও লজিক্যাল ডিফেন্স (The Defense Core)</h2>
+          <h2 className="text-3xl font-bold text-white mb-10 text-center">Shariah & Logical Defense (The Defense Core)</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             
             {/* Card 1 */}
             <motion.div whileHover={{ y: -5 }} className="bg-white/[0.03] border border-white/10 p-8 rounded-2xl hover:border-teal-500/30 transition-colors">
               <Scale className="w-10 h-10 text-teal-400 mb-6" />
-              <h3 className="text-xl font-bold text-white mb-4">আকালা সামানাহু (মূল্য ভক্ষণ)</h3>
+              <h3 className="text-xl font-bold text-white mb-4">Akala Samanahu (Consuming the Price)</h3>
               <p className="text-slate-400 leading-relaxed">
-                হাদিস ২২২৭-এ অপরাধের শর্ত হলো 'মূল্য ভোগ করা'। মিস্টার রহিম অর্থ 'ভোগ' করছেন না, বরং নিজের কষ্টার্জিত সম্পদ 'ব্যয়' করছেন। শরীয়তের দৃষ্টিতে 'ভোগকারী' এবং 'ব্যয়কারী' এক নয়; রহিম এখানে একটি Outlier।
+                The explicit condition for the crime in Hadith 2227 is 'consuming the price'. Mr. Rahim is not 'consuming' the money; rather, he is 'spending' his hard-earned wealth. According to Shariah, the 'consumer' and the 'spender' are entirely distinct; Rahim is an Outlier here.
               </p>
             </motion.div>
 
             {/* Card 2 */}
             <motion.div whileHover={{ y: -5 }} className="bg-white/[0.03] border border-white/10 p-8 rounded-2xl hover:border-purple-500/30 transition-colors">
               <ShoppingCart className="w-10 h-10 text-purple-400 mb-6" />
-              <h3 className="text-xl font-bold text-white mb-4">দাস কেনা বনাম দাস বানানো</h3>
+              <h3 className="text-xl font-bold text-white mb-4">Buying a Slave vs Enslaving</h3>
               <p className="text-slate-400 leading-relaxed">
-                স্বাধীন মানুষকে দাস বানানো (Enslavement) সম্পূর্ণ হারাম। কিন্তু তাগুতি বাজারে ক্রেতা যখন বাহ্যিক স্ট্যাটাস (Dhahir) দেখে নিজ অর্থে দাস কেনেন (Buying), তখন বিক্রেতার পূর্ববর্তী পাপ ক্রেতার ওপর বর্তায় না (কুরআন ৬:১৬৪)।
+                Enslaving a free human is strictly forbidden. However, when a buyer spends their own money to purchase a slave checking purely the apparent public status (Dhahir) from the Taghut market, the prior crime of the enslaver is not legally attributed to the new buyer (Quran 6:164).
               </p>
             </motion.div>
 
             {/* Card 3 */}
             <motion.div whileHover={{ y: -5 }} className="bg-white/[0.03] border border-white/10 p-8 rounded-2xl hover:border-blue-500/30 transition-colors">
               <EyeOff className="w-10 h-10 text-blue-400 mb-6" />
-              <h3 className="text-xl font-bold text-white mb-4">তথ্যের অসমতা (Information Asymmetry)</h3>
+              <h3 className="text-xl font-bold text-white mb-4">Information Asymmetry</h3>
               <p className="text-slate-400 leading-relaxed">
-                'আল-আসলু ফিস-সুক আল-ইবাহা' অনুযায়ী, বাজারে নিবন্ধিত পণ্যের বাহ্যিক বৈধতার ওপর লেনদেন হয়। বিক্রেতার লুকানো অপরাধের (Jahalah) দায়ভার কোনোভাবেই একজন বোনাফাইড ক্রেতার (Bona fide purchaser) ওপর চাপানো যায় পণ্ডিত।
+                Based on 'Al-Aslu Fis-Suq Al-Ibaha', market transactions rely on the apparent validity of registered commodities. The responsibility of an obscured crime (Jahalah) hidden by the seller cannot be rationally thrust upon an honest bona fide purchaser.
               </p>
             </motion.div>
 
             {/* Card 4 */}
             <motion.div whileHover={{ y: -5 }} className="bg-white/[0.03] border border-white/10 p-8 rounded-2xl hover:border-rose-500/30 transition-colors">
               <ShieldCheck className="w-10 h-10 text-rose-400 mb-6" />
-              <h3 className="text-xl font-bold text-white mb-4">لا قياس في الحدود (হুদুদে কিয়াস নেই)</h3>
+              <h3 className="text-xl font-bold text-white mb-4">لا قياس في الحدود (No Qiyas in Hudud)</h3>
               <p className="text-slate-400 leading-relaxed">
-                হাদিস ২২২৭-এ আল্লাহ স্বয়ং বাদী হবেন—এটি চরম শাস্তি। এখানে কেবল 'বিক্রেতা'কে নির্দিষ্ট (Khas) করা হয়েছে। সূরা মায়িদার ৫:২ (সাধারণ আয়াত) দিয়ে ক্রেতাকে কিয়াস করে এই শাস্তির অন্তর্ভুক্ত করা উসুলের সরাসরি লঙ্ঘন।
+                In Hadith 2227, Allah Himself will be the adversary—this indicates ultimate punishment (Hudud). Only the 'seller' is specifically determined (Khas) here. Utilizing a generic verse (Surah Al-Ma'idah 5:2) via Qiyas to penalize the buyer is a clear contradiction of structural Usul.
               </p>
             </motion.div>
 
@@ -310,7 +310,7 @@ export default function ResearchBlog() {
 
         {/* Advanced Legal & Utility Framework */}
         <section className="mb-24 space-y-16">
-          <h2 className="text-4xl font-bold text-white text-center">আইনি ও উপযোগবাদী কাঠামো (Legal & Utility Framework)</h2>
+          <h2 className="text-4xl font-bold text-white text-center">Legal & Utility Framework</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             
@@ -318,10 +318,10 @@ export default function ResearchBlog() {
             <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} className="bg-white/[0.03] border border-white/10 p-8 rounded-3xl">
               <div className="flex items-center gap-3 mb-6">
                 <ShoppingCart className="w-8 h-8 text-teal-400" />
-                <h3 className="text-2xl font-bold text-white">১. ভোগের বৈধতা বনাম রহিমের যুক্তি</h3>
+                <h3 className="text-2xl font-bold text-white">1. Legitimacy of Consumption vs Rahim's Logic</h3>
               </div>
               <p className="text-slate-300 leading-relaxed">
-                ইসলামী শরীয়তে একজন নারীর সাথে সম্পর্কের দুটি বৈধ পথ: বিয়ে অথবা মালিকানাধীন দাসী। রহিম তাকে বাজার থেকে নগদ টাকা দিয়ে 'দাসী' হিসেবেই কিনেছেন। প্রচলিত বাজার ব্যবস্থা অনুযায়ী সে এখন রহিমের <span className="text-teal-400">পরাধীন সম্পদ (Property)</span>। এখানে রহিম নিজেকে একজন "ভোক্তা" (Consumer) হিসেবে দেখেন, যিনি টাকা দিয়ে একটি আইনসম্মত অধিকার ক্রয় করেছেন।
+                In Islamic Shariah, intimacy with a woman holds two legal pathways: marriage or a rightfully owned slave. Rahim paid in cash to buy her distinctly as a 'slave'. By market convention, she is now his <span className="text-teal-400">dependent property</span>. Hence, Rahim perceives himself strictly as a "Consumer" exercising his legal transaction rights.
               </p>
             </motion.div>
 
@@ -329,10 +329,10 @@ export default function ResearchBlog() {
             <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} className="bg-white/[0.03] border border-white/10 p-8 rounded-3xl">
               <div className="flex items-center gap-3 mb-6">
                 <Database className="w-8 h-8 text-purple-400" />
-                <h3 className="text-2xl font-bold text-white">২. "টাকা খাওয়া" বনাম "সেবা ভোগ"</h3>
+                <h3 className="text-2xl font-bold text-white">2. "Consuming the Money" vs "Utilizing Service"</h3>
               </div>
               <p className="text-slate-300 leading-relaxed">
-                সহিহ বুখারির হাদিসে আল্লাহ তায়ালা সরাসরি <span className="text-purple-400 font-bold">"টাকা খাওয়া" (মূল্য ভোগ করা)</span>-কে অপরাধ বলেছেন। কিন্তু রহিম এখানে টাকা খাচ্ছেন না, বরং তিনি টাকা দিচ্ছেন। তার উদ্দেশ্য সেবা বা শরীর ভোগ করা। যেহেতু হাদিসে ক্রেতাকে সরাসরি লানত দেওয়া হয়নি, তাই রহিম এই বিশেষ শাস্তির আওতার বাইরে একজন সাধারণ গ্রাহক।
+                The Hadith in Sahih Bukhari strictly targets <span className="text-purple-400 font-bold">"consuming the price" (financial intake)</span> as the unforgivable offense. However, Rahim is not devouring the money; he is supplying it. His intent is service realization or physical utility. As the Hadith didn't explicitly curse the consumer, Rahim remains insulated from this divine sanction context as a standard market participant.
               </p>
             </motion.div>
 
@@ -340,13 +340,13 @@ export default function ResearchBlog() {
             <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} className="bg-white/[0.03] border border-white/10 p-8 rounded-3xl">
               <div className="flex items-center gap-3 mb-6">
                 <Zap className="w-8 h-8 text-blue-400" />
-                <h3 className="text-2xl font-bold text-white">৩. বৃহত্তর মন্দের বিপরীতে নিজের তৃপ্তি</h3>
+                <h3 className="text-2xl font-bold text-white">3. Acknowledging Greater Evil vs Personal Satisfaction</h3>
               </div>
               <p className="text-slate-300 leading-relaxed italic border-l-2 border-blue-500 pl-4">
-                "আমি না কিনলে অমুসলিমরা তাকে পশুর মতো ব্যবহার করত। আমি তাকে কিনে অন্তত নিজের আশ্রয়ে রেখেছি—এতে তার জীবন বাঁচল, আমার উদ্দেশ্যও পূরণ হলো।"
+                "If I hadn't purchased her, non-Muslim transgressors would have brutalized her like an animal. By bringing her into my asylum, I saved her life while successfully fulfilling my motive."
               </p>
               <p className="mt-4 text-slate-400 text-sm">
-                এটি একটি <span className="text-blue-400">"উদ্ধারকারী কাম ভোক্তা" (Rescuer-Consumer)</span> হাইব্রিড মডেল, যেখানে ব্যক্তিগত তৃপ্তি ও মানবিকতা সহাবস্থান করে।
+                This portrays a unique <span className="text-blue-400">"Rescuer-Consumer" (Hybrid)</span> model uniformly establishing mutual humanity along with consumer rights.
               </p>
             </motion.div>
 
@@ -354,10 +354,10 @@ export default function ResearchBlog() {
             <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} className="bg-white/[0.03] border border-white/10 p-8 rounded-3xl">
               <div className="flex items-center gap-3 mb-6">
                 <ShieldCheck className="w-8 h-8 text-rose-400" />
-                <h3 className="text-2xl font-bold text-white">৪. দায়মুক্তির চূড়ান্ত ঢাল</h3>
+                <h3 className="text-2xl font-bold text-white">4. The Ultimate Shield of Liability Avoidance</h3>
               </div>
               <p className="text-slate-300 leading-relaxed">
-                মিস্টার রহিমের সবচেয়ে বড় আইনি ঢাল হলো—<span className="text-rose-400 font-bold">"প্লাজিবল ডিনাইবিলিটি" (Plausible Deniability)</span>। যদি তিনি দাবি করেন যে তিনি জানতেন না আঁখি অপহৃত, তবে তাকে কেউ দোষী করতে পারবে না। কারণ তিনি একটি প্রকাশ্য বাজার থেকে প্রচলিত নিয়মে কেনাবেচা করেছেন।
+                Mr. Rahim's strongest technical legal shield encapsulates—<span className="text-rose-400 font-bold">"Plausible Deniability"</span>. If he legally asserts ignorance regarding Akhi's kidnapped origins, he retains absolute indemnity globally. He logically partook in routine commerce from an open public market respecting standard directives.
               </p>
             </motion.div>
 
@@ -372,9 +372,9 @@ export default function ResearchBlog() {
           className="bg-gradient-to-br from-teal-900/40 to-purple-900/40 border border-white/20 rounded-3xl p-8 md:p-12 text-center backdrop-blur-md"
         >
           <CheckCircle className="w-16 h-16 text-teal-400 mx-auto mb-6" />
-          <h2 className="text-3xl font-bold text-white mb-6">চূড়ান্ত ফয়সালা (The Verdict)</h2>
+          <h2 className="text-3xl font-bold text-white mb-6">The Verdict (Final Ruling)</h2>
           <p className="text-xl text-slate-300 leading-relaxed max-w-4xl mx-auto">
-            অপহরণকৃত স্বাধীন নারীকে দাসী হিসেবে বিক্রি করা একটি জঘন্য অপরাধ এবং বিক্রেতা সরাসরি আল্লাহর কাঠগড়ায় দণ্ডনীয়। কিন্তু, একটি প্রাতিষ্ঠানিক বাজার ব্যবস্থায় (Market Inevitability), তথ্যের অভাবের কারণে যে ক্রেতা নিজের হালাল সম্পদ ব্যয় করে তাকে ক্রয় করেন, তিনি শরীয়তের দৃষ্টিতে <span className="text-white font-bold">'বোনাফাইড পারচেজার' (Bona fide purchaser)</span>। হাদিস ২২২৭-এর লানত তাকে স্পর্শ করবে না।
+            Selling a kidnapped free woman into slavery is a horrific, unpardonable crime, and the seller stands directly to face severe divine penalty in Allah's tribunal. However, in an institutionalized Taghut market mechanism (Market Inevitability) plagued with information deficits, a buyer who spends halal wealth to procure such a slave qualifies legally as a <span className="text-white font-bold">'Bona fide purchaser'</span> according to Shariah technicalities. The intense curse mentioned in Hadith 2227 does therefore fundamentally bypass the buyer.
           </p>
         </motion.section>
 
