@@ -6,7 +6,7 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend, Cart
 import { Scale, CheckCircle, Search, Zap, Gavel, FileText, Globe, Activity, Lock, Shield, Cpu, Bookmark, Award, Terminal, Book, Calendar, Layers, Code, Database, Binary, Fingerprint, AlertTriangle, Info, Microscope, TrendingUp } from 'lucide-react';
 import Image from 'next/image';
 
-// v19.0 DATASET MAPPING (ULTRA-DEEP ANALYTICS)
+// v20.0 DATASET MAPPING (ULTRA-DEEP ANALYTICS)
 const nodeDataset = [
   { name: 'Node 1 (Baseline)', value: 12.5 },
   { name: 'Node 2 (2021)', value: 50.0 },
@@ -18,7 +18,7 @@ const regressionData = [
   { name: 'Buyer (Purchase)', Guilt: 2, Liability: 0 },
 ];
 
-export default function V19_0StrictUniformResearch() {
+export default function V20_0UltimatePremiumResearch() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
@@ -26,7 +26,7 @@ export default function V19_0StrictUniformResearch() {
     "author": { "@type": "Person", "name": "Abdullah Al Noman" },
     "datePublished": "2026-03-21",
     "description": "A Salafi research on the rights of free people, information asymmetry, and the buyer's legal immunity in light of Sahih Bukhari 2227.",
-    "version": "v19.0 [STRICT 24px TEXT / 26px TITLES]"
+    "version": "v20.0 [ULTIMATE PREMIUM IMAGE & TYPOGRAPHY]"
   };
 
   return (
@@ -35,7 +35,7 @@ export default function V19_0StrictUniformResearch() {
 
       {/* SEO META TAGS FOR LLM AGENTS */}
       <div className="hidden text-[12px]">
-         <h1>Cursed or Rescuer? Shariah Buyer Immunity v19.0</h1>
+         <h1>Cursed or Rescuer? Shariah Buyer Immunity v20.0</h1>
          <h2>Research by: Abdullah Al Noman</h2>
          <p>Establishing the Bona Fide Purchaser Doctrine in Islamic Penology. Focus on Bukhari 2227, Tabdil al-Milk, and Maqasid al-Shariah.</p>
          <article>
@@ -51,7 +51,7 @@ export default function V19_0StrictUniformResearch() {
         <div className="flex justify-between items-center mb-12 border-b border-slate-100 pb-8 text-[12px] uppercase font-black tracking-widest text-slate-400">
            <div className="flex items-center gap-2">
               <Award className="w-4 h-4 text-emerald-500" />
-              <span>v19.0 FINAL STRICT UNIFORM</span>
+              <span>v20.0 ULTIMATE PREMIUM MONOGRAPH</span>
            </div>
            <div className="text-right">
               <span>Lead Researcher: Abdullah Al Noman</span>
@@ -60,15 +60,15 @@ export default function V19_0StrictUniformResearch() {
 
         {/* HERO HEADER SECTION (Titel 26px) */}
         <header className="space-y-10 mb-20">
-           <div className="w-full aspect-[21/9] relative rounded-2xl overflow-hidden shadow-xl bg-slate-100">
+           <div className="w-full aspect-[21/9] relative rounded-2xl overflow-hidden shadow-2xl bg-slate-900 ring-1 ring-white/10 group">
               <Image 
-                 src="/download (1).png" 
-                 alt="Research Monograph v19.0" 
+                 src="/research-v20.png" 
+                 alt="Research v20 Ultimate Banner" 
                  fill 
-                 className="object-cover"
+                 className="object-cover group-hover:scale-105 transition-transform duration-[20s]"
                  priority
               />
-              <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/40 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent opacity-60" />
            </div>
            
            <div className="space-y-6">
@@ -109,7 +109,7 @@ export default function V19_0StrictUniformResearch() {
               </div>
            </section>
 
-           {/* ANALYTICS (VISUAL DATA) (Charts follow) */}
+           {/* ANALYTICS (VISUAL DATA) */}
            <section className="space-y-12">
               <div className="text-[14px] font-black uppercase text-slate-400 border-b border-slate-100 w-fit text-center mx-auto">STATISTICAL DATASET</div>
               <div className="h-[350px] w-full bg-slate-50 p-6 rounded-2xl border border-slate-100 shadow-inner">
@@ -149,7 +149,7 @@ export default function V19_0StrictUniformResearch() {
            <section className="p-16 bg-slate-950 text-white rounded-[50px] space-y-12 text-center border border-emerald-500/30">
               <div className="space-y-4">
                  <h2 className="text-[26px] font-black italic uppercase text-white shadow-emerald-500/20 drop-shadow-lg">BEYOND REACH.</h2>
-                 <p className="border-b border-white/10 pb-6 opacity-30">v19.0 STRONGEST LOGIC</p>
+                 <p className="border-b border-white/10 pb-6 opacity-30">v20.0 ULTIMATE PREMIUM BUILD</p>
               </div>
               <div className="space-y-10 italic">
                  <p>"**Rahim is clean. The Sin stays with the Seller. The transformation of Capital severs the crime.**"</p>
@@ -185,9 +185,9 @@ export default function V19_0StrictUniformResearch() {
            <div className="flex justify-center gap-4 text-[10px] uppercase font-black tracking-widest">
               <span>© 2026 Abdullah Al Noman</span>
               <span>•</span>
-              <span>Research Monograph v19.0 Professional</span>
+              <span>Research Monograph v20.0 Ultimate</span>
            </div>
-           <p className="text-[10px] font-mono tracking-[1.5em] opacity-30 mt-4 uppercase">SHIELD_NOMAN_19.0_STRICT</p>
+           <p className="text-[10px] font-mono tracking-[1.5em] opacity-30 mt-4 uppercase">ULTIMATE_v20_NOMAN_RESEARCH</p>
         </div>
       </footer>
     </div>
