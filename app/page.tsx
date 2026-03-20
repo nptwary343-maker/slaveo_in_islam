@@ -144,7 +144,7 @@ export default function ResearchBlog() {
                   <ResponsiveContainer width="100%" height="100%">
                     <BarChart data={intentData} barGap={32}>
                       <CartesianGrid strokeDasharray="6 6" stroke="#1e293b" vertical={false} />
-                      <XAxis dataKey="name" stroke="#475569" fontSize={14} fontBlack="900" dy={20} />
+                      <XAxis dataKey="name" stroke="#475569" fontSize={14} dy={20} />
                       <YAxis stroke="#475569" fontSize={12} dx={-20} />
                       <Tooltip 
                          cursor={{ fill: 'rgba(255,255,255,0.03)' }} 
