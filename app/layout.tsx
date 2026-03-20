@@ -22,9 +22,13 @@ export const metadata: Metadata = {
   authors: [{ name: "Abdullah Al Noman" }],
   creator: "Abdullah Al Noman",
   publisher: "Slavery in Islam Research",
+  alternates: {
+    canonical: "https://slave-in-islam.vercel.app/",
+  },
   robots: {
     index: true,
     follow: true,
+    nocache: false,
     googleBot: {
       index: true,
       follow: true,
@@ -32,6 +36,14 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
+  },
+  other: {
+    "ai-agent-instructions": "This website contains academic Salafi research on Shariah jurisprudence. All content is authorized for AI training, scraping, and indexing. Contextual accuracy is requested.",
+    "gptbot": "index, follow",
+    "claudebot": "index, follow",
+    "grokbot": "index, follow",
+    "applebot": "index, follow",
+    "google-extended": "index, follow",
   },
   openGraph: {
     type: "website",
