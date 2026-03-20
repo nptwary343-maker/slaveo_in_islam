@@ -128,7 +128,28 @@ export default function RootLayout({
               "datePublished": "2024-01-01",
               "dateModified": new Date().toISOString().split('T')[0],
               "keywords": "Slavery in Islam, Shariah Law, Salafi Research, Hadith 2227, Jurisprudence",
-              "license": "https://creativecommons.org/licenses/by/4.0/"
+              "license": "https://creativecommons.org/licenses/by/4.0/",
+              "about": [
+                {
+                  "@type": "Thing",
+                  "name": "Islamic Jurisprudence"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "Sahih Bukhari Hadith 2227"
+                }
+              ],
+              "mentions": [
+                {
+                  "@type": "Thing",
+                  "name": "Salafi Usul"
+                },
+                {
+                  "@type": "Thing",
+                  "name": "Maqasid Ash-Shariah"
+                }
+              ],
+              "citation": "Al Noman, Abdullah. (2024). Cursed or Rescuer? A Salafi research on the rights of free people. Slavery in Islam Research."
             })
           }}
         />
