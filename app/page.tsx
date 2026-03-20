@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend, CartesianGrid } from 'recharts';
-import { Scale, CheckCircle, Database, Search, Zap, Gavel, FileText, Globe, Activity, Lock, TrendingUp, Shield, Cpu, Bookmark, Award, Terminal } from 'lucide-react';
+import { Scale, CheckCircle, Search, Zap, Gavel, FileText, Globe, Activity, Lock, TrendingUp, Shield, Cpu, Bookmark, Award, Terminal, Target, Book } from 'lucide-react';
 
 // STABLE STATIC DATA (NO DATABASE)
 const intentData = [
