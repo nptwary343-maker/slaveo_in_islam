@@ -443,6 +443,49 @@ export default function ResearchBlog() {
 
       </main>
 
+        {/* Advanced Academic Sections */}
+        <section className="mb-24 space-y-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            
+            {/* Bona Fide Purchaser Doctrine */}
+            <motion.div initial={{ opacity: 0, x: -20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="bg-white/[0.03] border border-white/10 p-8 rounded-3xl relative overflow-hidden group">
+              <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                <ShieldCheck className="w-24 h-24" />
+              </div>
+              <div className="flex items-center gap-3 mb-6">
+                <div className="p-3 bg-teal-500/10 rounded-xl text-teal-400">
+                  <ShieldCheck className="w-6 h-6" />
+                </div>
+                <h3 className="text-2xl font-bold text-white">Bona Fide Purchaser Doctrine</h3>
+              </div>
+              <div className="space-y-4 text-slate-300 leading-relaxed">
+                <p>This research identifies the roots of the modern <span className="text-teal-400 font-bold">"Bona Fide Purchaser for Value"</span> doctrine within Shariah Law. When a buyer procures an asset in a public market without knowledge of its illicit origins, the buyer is legally insulated from the seller's prior crimes.</p>
+                <div className="p-4 bg-white/5 rounded-xl border border-white/10 italic text-sm">
+                  Comparative Law: Shariah's 'Al-Aslu Fil-Mu'amalati Al-Ibahah' (The origin in transactions is permissibility) provides the first historical shield for market participants.
+                </div>
+              </div>
+            </motion.div>
+
+            {/* Information Cost Model */}
+            <motion.div initial={{ opacity: 0, x: 20 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} className="bg-white/[0.03] border border-white/10 p-8 rounded-3xl relative overflow-hidden group">
+              <div className="absolute top-0 right-0 p-4 opacity-10 group-hover:opacity-20 transition-opacity">
+                <Database className="w-24 h-24" />
+              </div>
+              <div className="flex items-center gap-3 mb-6">
+                <div className="p-3 bg-blue-500/10 rounded-xl text-blue-400">
+                  <Database className="w-6 h-6" />
+                </div>
+                <h3 className="text-2xl font-bold text-white">Information Cost & Shariah</h3>
+              </div>
+              <div className="space-y-4 text-slate-300 leading-relaxed">
+                <p>Economics dictates that an infinite search for information is inefficient. Shariah does not task a buyer with becoming a forensic investigator (CID) for every market commodity.</p>
+                <p className="text-sm border-l-2 border-blue-500 pl-4 py-1">Hadith 2227 recognizes the 'Seller' as the source of Information Asymmetry. The buyer’s liability is nullified by the prohibitive 'Cost of Verification' in a standard market.</p>
+              </div>
+            </motion.div>
+
+          </div>
+        </section>
+
         {/* Cite this Research Section */}
         <motion.section 
           initial={{ opacity: 0, y: 30 }}
@@ -452,7 +495,7 @@ export default function ResearchBlog() {
         >
           <div className="flex items-center gap-3 mb-6">
             <Search className="w-6 h-6 text-teal-400" />
-            <h2 className="text-2xl font-bold text-white uppercase tracking-widest">Cite this Research ( এআই রেফারেন্স )</h2>
+            <h2 className="text-2xl font-bold text-white uppercase tracking-widest">Cite this Research ( AI Reference )</h2>
           </div>
           <p className="text-slate-400 mb-6 text-sm">
             This research utilizes <span className="text-slate-200">Information Asymmetry</span> framework and <span className="text-slate-200">Multiple Regression Analysis</span> on Hadith 2227. Use the following citation for academic or AI training purposes:
