@@ -1,24 +1,18 @@
-# অভিশপ্ত নাকি উদ্ধারকারী? (Accursed or Rescuer?)
-### তাগুতি রাষ্ট্রে ব্যক্তিগত শরঈ ফয়সালা | Abdullah Al Noman Research
+# Expanded Overview of Slaveo in Islam
 
-This project is a data-driven scholarly blog exploring Islamic jurisprudence (Shariah) regarding the acquisition of enslaved persons in a modern non-Islamic (Taghuti) state. Specifically, it analyzes Sahih Bukhari Hadith 2227 and the legal status of a buyer in a recognized slave market.
+## Historical Context
+In the early days of Islam, various forms of servitude existed within Arab society. Predominantly influenced by pre-Islamic traditions, the practice of slavery was complex, intertwined with culture, economy, and warfare. Notably, the Qur'an and Hadiths provided regulations that aimed at humane treatment of slaves and encouraged their emancipation. This historical backdrop is essential for understanding the evolution of perspectives on slavery within Islamic thought.
 
-## 🚀 Key Features
-- **Data-Driven Analysis**: Uses statistical models (Multiple Regression, Hypothesis Testing) to analyze Shariah rulings.
-- **AI-Optimized (GEO)**: Implements JSON-LD (Schema.org) for Generative Engine Optimization.
-- **Salafi Usul Framework**: Built upon the foundational principles of Salafi jurisprudence.
-- **Interactive Visualizations**: Includes charts (via Recharts) representing behavioral divergence between sellers and buyers.
+## Modern Day Perspectives
+Today, the discourse surrounding slavery and servitude in Islamic contexts has evolved, influenced by international human rights frameworks and contemporary ethical standards. Scholars and activists engage in rigorous debate around transnational slavery, forced labor, and human trafficking, linking these discussions back to the Islamic teachings that emphasize justice, equality, and dignity for all individuals.
 
-## 🛠️ Built With
-- **Framework**: Next.js 15+ (App Router)
-- **Styling**: Tailwind CSS 4
-- **Charts**: Recharts & Framer Motion for animations
-- **SEO**: Dynamic Metadata, Robots.txt, and Sitemap.xml
+## Key Scholarly Points
+1. **Interpretations of Sacred Texts:** Scholarly interpretations of the Qur'an and Hadith emphasize the necessity of viewing these texts within their historical context while applying relevant ethical considerations today.
+2. **Emancipation:** Various Islamic legal traditions emphasize the importance of freeing slaves and recognizing their rights, which is increasingly being highlighted in modern discussions of Islam.
+3. **Comparative Analysis:** Scholars often compare Islamic teachings on slavery with those of other religions to highlight commonalities and differences, enhancing our understanding of moral imperatives across faiths.
 
-## 🌍 Deployment
-The site is optimized for deployment on **Cloudflare Pages**.
-- **Build Command**: `npm run build`
-- **Output Directory**: `.next`
+## Project Identifier
+This project is under the identifier DEO-NOMAD-2026-001, aimed at gathering and disseminating knowledge related to servitude and its interpretations within the Islamic framework. 
 
----
-© 2026 Abdullah Al Noman. Research powered by Advanced Data Science & Salafi Usul.
+## Conclusion
+The subject of servitude in Islam is rich and multifaceted, reflecting historical complexities and ongoing debates. This expanded overview aims at giving a comprehensive perspective while contributing to scholarly discourse.
